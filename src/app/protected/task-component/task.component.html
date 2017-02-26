@@ -1,0 +1,28 @@
+<div class="menu-bar">
+  <span class="logo-name">
+    <img src="assets/pics/logo_mayo.jpg" alt="logo">
+  </span>
+  <p-menu #menu [model]="items" popup="popup"></p-menu>
+  <button type="button" pButton icon="fa fa-list" (click)="menu.toggle($event)"></button>
+</div>
+<p-panel header="{{activity.activityType}}">
+  <img src="{{imgUrl}}" style="width: 100%" alt="{{activity.activityNameParent}}">
+
+    <p-panel header="{{activity.activityNameParent}}">
+      {{activity.description}}
+    </p-panel>
+  <div class="finishBtn" >
+    <button pButton type="button" (click)="showButtonsGroup()" *ngIf="!showButtons" label="איך היינו?"></button>
+  </div>
+
+  <div class="feedback-buttons" *ngIf="showButtons">
+    <h2>איך היינו?</h2>
+    <div>
+      <button pButton  type="button" (click)="addResponse('הצלחנו')" class="success-btn" label="הצלחנו" icon="fa-smile-o" iconPos="left"></button>
+      <button pButton  type="button" (click)="addResponse('כמעט הצלחנו')" class="meh-btn" label="כמעט הצלחנו" icon="fa-meh-o" iconPos="left"></button>
+      <button pButton  type="button" (click)="addResponse('לא ביצענו')" class="frown-btn" label="לא ביצענו" icon="fa-frown-o" iconPos="left"></button>
+    </div>
+  </div>
+
+</p-panel>
+

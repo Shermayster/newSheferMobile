@@ -1,0 +1,46 @@
+.odot {
+
+  background-color: white;
+  text-align: center;
+  margin: 1rem auto;
+
+}
+.logo-img {
+  display: block;
+  margin: 1rem auto;
+
+}
+.block {
+  display: block;
+  margin: 1rem auto;
+}
+.text-block {
+  display: block;
+  text-align: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+
+}
+.hit-logo-block, .shefer-logo-block{
+
+  margin: 3rem auto;
+  height: 13rem;
+}
+.shefer-logo-block .text-block {
+  margin-top: 2rem;
+}
+.shefer-logo-block img {
+  margin-top: 1.5rem;
+}
+.bold-text {
+  display: block;
+  font-weight: bold;
+}
+
+.block-img {
+  width: 8rem;
+}
+.footer{
+  text-align: center;
+  margin-top: 4rem;
+}

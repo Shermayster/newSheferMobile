@@ -1,0 +1,15 @@
+<div class="menu-bar">
+  <span class="logo-name">
+    <img src="assets/pics/logo_mayo.jpg" alt="logo">
+  </span>
+  <p-menu #menu [model]="items" popup="popup"></p-menu>
+  <button type="button" pButton icon="fa fa-list" (click)="menu.toggle($event)"></button>
+</div>
+<p-panel header="{{currentGroup[0].activityType}}" [toggleable]="true">
+  <img [src]="imgUrl" style="width: 100%" [alt]="currentGroup[0].activityType">
+  {{content}}
+</p-panel>
+<div class="tasks-buttons">
+  <button pButton *ngFor="let activity of currentGroup" (click)="doActivity(activity)" type="button" label="{{activity.activityNameParent}}" icon="fa-check" iconPos="left"></button>
+</div>
+

@@ -1,0 +1,28 @@
+<p-panel class="sign-in">
+  <div class="logo center">
+    <img src="assets/pics/logo_mayo.jpg" alt="logo">
+  </div>
+
+  <h3>
+    ילדים והורים מתרגלים ריפוי ועיסוק
+  </h3>
+  <form (ngSubmit)="onSubmit(pass.value)" #form="ngForm" >
+  <div>
+
+      <input type="password" class="form-control enter-page-input" #pass (ngModel)="pass.value" />
+
+
+  </div>
+  <div>
+    <button type="submit"  class="btn btn-primary">התחבר</button>
+  </div>
+  </form>
+</p-panel>
+<div class="alert alert-danger" *ngIf="showError">
+הסיסמא לא נכונה
+</div>
+
+
+
+
+

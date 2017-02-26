@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanshebrew.css);
+html, body, .ui-widget, p {
+  direction: rtl !important;
+  font-size: 16px;
+  font-family: 'Noto Sans Hebrew', sans-serif; }
+
+body {
+  background-color: #F0F0F0; }
+
+.ui-tabview .ui-tabview-nav li, ngb-tabset li {
+  width: 48%; }
+  .ui-tabview .ui-tabview-nav li a, ngb-tabset li a {
+    width: 8rem; }
+  .ui-tabview .ui-tabview-nav li .ui-tabview-left-icon, ngb-tabset li .ui-tabview-left-icon {
+    vertical-align: middle;
+    float: left; }
+
+.ui-menu-list .ui-helper-reset .ui-menuitem .ui-widget .ui-corner-all li {
+  margin: 1rem .5rem; }
+
+.menu-bar {
+  background-color: white; }
+  .menu-bar .logo-name img {
+    width: 4rem;
+    margin-right: 1rem; }
+  .menu-bar button {
+    float: left;
+    margin-top: .5rem;
+    margin-left: .5rem; }
+
+ngb-tabset ul {
+  padding: 0;
+  margin: 0 auto; }
+ngb-tabset li a {
+  width: 12rem; }
+
+img {
+  width: 170px; }
+
+.link {
+  color: #0275d8 !important; }
+
+.enter-page-input {
+  width: 75vw; }
+
+.tip-panel, .message-panel {
+  margin-bottom: 1rem; }
+  .tip-panel .ui-widget-header, .message-panel .ui-widget-header {
+    background: linear-gradient(to bottom, #A191FF 0%, #A191FF 100%);
+    color: white; }
+  .tip-panel .ui-panel-content, .message-panel .ui-panel-content {
+    max-height: 8rem;
+    overflow: auto; }
+
+.progress-icons {
+  display: flex;
+  justify-content: center; }
+  .progress-icons .fa {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #D4d4d4;
+    background-color: #636363;
+    margin: .5rem;
+    border-radius: .4rem; }
+  .progress-icons .success, .progress-icons .feedback-buttons .ui-button.success-btn, .feedback-buttons .progress-icons .ui-button.success-btn {
+    color: #F0F0F0;
+    background-color: #52ce55; }
+
+.center.logo img {
+  display: block;
+  margin: 1rem auto;
+  width: 10rem; }
+
+.explanation-list li {
+  margin-right: -1.5rem;
+  margin-top: 1rem; }
+
+.category-buttons, .tasks-buttons, .feedback-buttons, .finishBtn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem; }
+  .category-buttons span, .tasks-buttons span, .feedback-buttons span, .finishBtn span {
+    display: block; }
+  .category-buttons .ui-button, .tasks-buttons .ui-button, .feedback-buttons .ui-button, .finishBtn .ui-button {
+    display: block;
+    margin: .5rem auto;
+    width: 16rem;
+    font-size: 1.5rem;
+    text-align: right; }
+    .category-buttons .ui-button.success, .tasks-buttons .ui-button.success, .feedback-buttons .ui-button.success, .finishBtn .ui-button.success, .feedback-buttons .ui-button.success-btn {
+      background: linear-gradient(to bottom, #63e266 0%, #52ce55 100%);
+      box-shadow: 0 1px 0 #63e266 inset, 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+      border: 1px solid #63e266; }
+  .category-buttons .ui-button-text-icon-left .fa, .tasks-buttons .ui-button-text-icon-left .fa, .feedback-buttons .ui-button-text-icon-left .fa, .finishBtn .ui-button-text-icon-left .fa {
+    margin-top: -.8rem; }
+
+.feedback-buttons {
+  margin-top: .5rem; }
+  .feedback-buttons h2 {
+    font-weight: bold;
+    text-align: center; }
+  .feedback-buttons .ui-button.meh-btn {
+    background: linear-gradient(to bottom, #636363 0%, #2b2b2b 100%);
+    box-shadow: 0 1px 0 #636363 inset, 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid #636363; }
+  .feedback-buttons .ui-button.frown-btn {
+    background: linear-gradient(to bottom, #ff5964 0%, #ea515a 100%);
+    box-shadow: 0 1px 0 #ff5964 inset, 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid #ff5964; }
+  .feedback-buttons .started {
+    color: #ffffff;
+    text-shadow: 0 0 #3b3b3b;
+    background-color: #FF5964; }
+
+.feedback-success .card-header, .feedback-almost .card-header, .feedback-didntdo .card-header {
+  color: white;
+  font-weight: bold;
+  background-color: #52ce55;
+  font-size: 2rem; }
+.feedback-success p, .feedback-almost p, .feedback-didntdo p {
+  font-size: 1.5rem; }
+.feedback-success img, .feedback-almost img, .feedback-didntdo img {
+  width: 100%; }
+.feedback-success .ui-button, .feedback-almost .ui-button, .feedback-didntdo .ui-button {
+  margin: .5rem auto;
+  font-size: 1.5rem; }
+.feedback-success .ui-button-text-icon-left .fa, .feedback-almost .ui-button-text-icon-left .fa, .feedback-didntdo .ui-button-text-icon-left .fa {
+  margin-top: -.8rem; }
+
+.feedback-almost .card-header {
+  background-color: #35a7ff; }
+
+.feedback-didntdo .card-header {
+  background-color: #ea515a; }
+
+.weekFinished {
+  font-size: 2rem; }
+  .weekFinished button {
+    margin: 1rem 0; }
+
+/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,19 @@
+html, body, .ui-widget, p {
+  direction: rtl !important;
+  font-size: 16px;
+  font-family: 'Noto Sans Hebrew', sans-serif; }
+
+h3 {
+  text-align: center; }
+
+.sign-in {
+  background-color: #2b2b2b; }
+  .sign-in:first-child {
+    margin-top: 12rem; }
+  .sign-in .ui-password-meter {
+    display: none; }
+  .sign-in input, .sign-in button {
+    display: block;
+    margin: 1rem auto; }
+
+/*# sourceMappingURL=sign-in.component.css.map */
